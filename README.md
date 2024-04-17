@@ -25,7 +25,9 @@ This script combines intro, outro, and recorded segments to batch edit episodes 
 
 ## Notes
 
+- See https://github.com/jiaaro/pydub for pydub documentation
 - Ensure that the intro and outro files are correctly formatted and have valid durations.
 - The script expects the recorded segments to be in the MP3 format.
 - Metadata tags for artist name and episode title are added to each combined episode.
+- This script does not handle processing such as compression, EQ, normalization etc. I typically do that as a batch process with the recorded segments in Adobe Audition before running this script. 
 
